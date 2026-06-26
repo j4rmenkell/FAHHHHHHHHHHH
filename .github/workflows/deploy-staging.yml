@@ -13,6 +13,7 @@ env:
   AZURE_WEBAPP_NAME: j4rmenkell-ttt-app
   ###############################################
 
+
 jobs:
   build:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
